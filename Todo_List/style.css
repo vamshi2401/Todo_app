@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('todo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div {
+  width: 50%;
+  height: 100%;
+}
+
+#taskinput {
+  margin: 20px 0;
+  padding: 10px;
+  list-style-type: none;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid rgb(151, 144, 144);
+}
+
+#addtaskbutton {
+  padding: 10px;
+  background-color: rgb(206, 63, 63);
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+}
+
+li {
+  list-style-type: none;
+  color: black;
+  background: beige;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button.remove {
+  background-color: rgb(198, 27, 27);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button.remove:hover {
+  background-color: darkred;
+}
+
+button.update {
+  background-color: rgb(79, 79, 214);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+
+}
+
+.div_button {
+  width: auto;
+}
